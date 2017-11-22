@@ -1,11 +1,17 @@
-// SEAL.cpp: определяет точку входа для консольного приложения.
-//
-
 #include "stdafx.h"
+#include "SEAL.h"
 
 
-int main()
+SEAL::SEAL(string key)
 {
-    return 0;
+	this->key = key;
+	//
+}
+void SEAL::init()
+{
+
 }
 
+SEAL::~SEAL()
+{
+}
